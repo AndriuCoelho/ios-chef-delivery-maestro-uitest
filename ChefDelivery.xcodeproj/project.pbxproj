@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		030B46B72C99C90400A2062D /* Home.yaml in Resources */ = {isa = PBXBuildFile; fileRef = 030B46B62C99C90400A2062D /* Home.yaml */; };
 		03AC8F6D2A250B7400BE5D55 /* StoreItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03AC8F6C2A250B7400BE5D55 /* StoreItemView.swift */; };
 		03AC8F6F2A250B8D00BE5D55 /* StoresContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03AC8F6E2A250B8D00BE5D55 /* StoresContainerView.swift */; };
 		03F6F1F12BE51ACC00CA5703 /* SearchStoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03F6F1EF2BE51ACC00CA5703 /* SearchStoreView.swift */; };
@@ -54,6 +55,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		030B46B62C99C90400A2062D /* Home.yaml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = Home.yaml; sourceTree = "<group>"; };
 		03AC8F6C2A250B7400BE5D55 /* StoreItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreItemView.swift; sourceTree = "<group>"; };
 		03AC8F6E2A250B8D00BE5D55 /* StoresContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoresContainerView.swift; sourceTree = "<group>"; };
 		03F6F1EF2BE51ACC00CA5703 /* SearchStoreView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchStoreView.swift; sourceTree = "<group>"; };
@@ -110,6 +112,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		030B46B52C99C8EB00A2062D /* end2end */ = {
+			isa = PBXGroup;
+			children = (
+				030B46B62C99C90400A2062D /* Home.yaml */,
+			);
+			path = end2end;
+			sourceTree = "<group>";
+		};
 		03DEB9F92BD5BB8600D8A486 /* Views */ = {
 			isa = PBXGroup;
 			children = (
@@ -249,6 +259,7 @@
 		187C248B2BE555EC0030193A /* ChefDeliveryTests */ = {
 			isa = PBXGroup;
 			children = (
+				030B46B52C99C8EB00A2062D /* end2end */,
 				18F7BF012BF7EB0A004BF722 /* Networking */,
 				187C24932BE5565C0030193A /* ViewModel */,
 			);
@@ -411,6 +422,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				030B46B72C99C90400A2062D /* Home.yaml in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
