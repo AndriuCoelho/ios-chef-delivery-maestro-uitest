@@ -1,0 +1,8 @@
+appId: br.com.alura.ChefDelivery
+---
+- launchApp
+- tapOn: "Busca"
+- assertVisible: "Busca"
+- tapOn: "Pesquisar em Chef Delivery"
+- inputText: "Sushi"
+- assertVisible: "Sushi"

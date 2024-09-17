@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		030B46B72C99C90400A2062D /* Home.yaml in Resources */ = {isa = PBXBuildFile; fileRef = 030B46B62C99C90400A2062D /* Home.yaml */; };
 		030B46B92C99CA4A00A2062D /* OrderFlow.yaml in Resources */ = {isa = PBXBuildFile; fileRef = 030B46B82C99CA4A00A2062D /* OrderFlow.yaml */; };
+		030B46BB2C99CB5000A2062D /* SearchStoreFlow.yaml in Resources */ = {isa = PBXBuildFile; fileRef = 030B46BA2C99CB5000A2062D /* SearchStoreFlow.yaml */; };
 		03AC8F6D2A250B7400BE5D55 /* StoreItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03AC8F6C2A250B7400BE5D55 /* StoreItemView.swift */; };
 		03AC8F6F2A250B8D00BE5D55 /* StoresContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03AC8F6E2A250B8D00BE5D55 /* StoresContainerView.swift */; };
 		03F6F1F12BE51ACC00CA5703 /* SearchStoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03F6F1EF2BE51ACC00CA5703 /* SearchStoreView.swift */; };
@@ -58,6 +59,7 @@
 /* Begin PBXFileReference section */
 		030B46B62C99C90400A2062D /* Home.yaml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = Home.yaml; sourceTree = "<group>"; };
 		030B46B82C99CA4A00A2062D /* OrderFlow.yaml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = OrderFlow.yaml; sourceTree = "<group>"; };
+		030B46BA2C99CB5000A2062D /* SearchStoreFlow.yaml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = SearchStoreFlow.yaml; sourceTree = "<group>"; };
 		03AC8F6C2A250B7400BE5D55 /* StoreItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreItemView.swift; sourceTree = "<group>"; };
 		03AC8F6E2A250B8D00BE5D55 /* StoresContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoresContainerView.swift; sourceTree = "<group>"; };
 		03F6F1EF2BE51ACC00CA5703 /* SearchStoreView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchStoreView.swift; sourceTree = "<group>"; };
@@ -119,6 +121,7 @@
 			children = (
 				030B46B62C99C90400A2062D /* Home.yaml */,
 				030B46B82C99CA4A00A2062D /* OrderFlow.yaml */,
+				030B46BA2C99CB5000A2062D /* SearchStoreFlow.yaml */,
 			);
 			path = end2end;
 			sourceTree = "<group>";
@@ -427,6 +430,7 @@
 			files = (
 				030B46B72C99C90400A2062D /* Home.yaml in Resources */,
 				030B46B92C99CA4A00A2062D /* OrderFlow.yaml in Resources */,
+				030B46BB2C99CB5000A2062D /* SearchStoreFlow.yaml in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
