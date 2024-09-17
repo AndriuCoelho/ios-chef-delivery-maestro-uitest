@@ -1,4 +1,4 @@
-![Mobile-iOS_ Testes end2end com Maestro](https://github.com/user-attachments/assets/4cb319cf-585e-46ee-aec2-68fc952ef848)
+![Mobile-iOS_ Testes end2end com Maestro (1)](https://github.com/user-attachments/assets/8767d088-753c-4316-b831-32f2281485a9)
 
 # ChefDelivery
 
