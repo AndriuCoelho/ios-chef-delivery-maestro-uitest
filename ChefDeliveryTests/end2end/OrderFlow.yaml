@@ -1,0 +1,10 @@
+appId: br.com.alura.ChefDelivery
+---
+- launchApp
+- scroll
+- back
+- tapOn: "Açaí Panda"
+- scroll
+- back
+- tapOn: "Açaí Grande"
+
