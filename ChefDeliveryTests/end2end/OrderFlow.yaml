@@ -1,10 +1,19 @@
 appId: br.com.alura.ChefDelivery
 ---
 - launchApp
-- scroll
-- back
+- scrollUntilVisible:
+    element: "Açaí Panda"
+    direction: DOWN
+- assertVisible: "Açaí Panda"
 - tapOn: "Açaí Panda"
 - scroll
 - back
+- assertVisible: "Açaí Grande, Açaí na tigela de 700ml com granola, banana, leite condensado e morangos, R$ 13,99"
 - tapOn: "Açaí Grande"
-
+- assertVisible: "Add"
+- tapOn: "Add"
+- tapOn: "Add"
+- assertVisible: "Enviar pedido"
+- tapOn: "Enviar pedido"
+- assertVisible: "Ok"
+- tapOn: "Ok"
