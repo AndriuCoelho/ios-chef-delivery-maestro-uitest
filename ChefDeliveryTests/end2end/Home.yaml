@@ -6,4 +6,6 @@ appId: br.com.alura.ChefDelivery
 - tapOn: "Filtrar"
 - tapOn: "5 estrelas ou mais"
 - assertVisible: "Nenhum resultado encontrado,"
+- tapOn: "Filtrar"
+- tapOn: "Limpar filtro"
 
